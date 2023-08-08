@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Clima tempo</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="form">
+            <h3>Descubra o clima de uma cidade!</h3>
+            <div class="input-search">
+                <input type="text" placeholder="Digite o nome da cidade" id="name-city">
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+        </div>
+        <div id="weather-data" class="hide">
+            <h2> 
+                <i class="fa-solid fa-location-dot"></i> 
+                <span id="city"></span>
+                <img src="" alt="Bandeira do país" id="country">
+            </h2>
+            <p id="temperature">
+                <span></span>&deg;C
+            </p>
+            <div id="description-container">
+                <p id="description"></p>
+                <img src="" alt="Condições climáticas" id="weather-icon">
+            </div>
+            <div id="details-container">
+                <p id="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span></span>
+                </p>
+                <p id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span></span>
+                </p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>
